@@ -1,0 +1,12 @@
+version: '3'
+services:
+  sass-3.4.2:
+    build: ./3.4.2
+    volumes:
+      - ./${FILE:-scss/test.scss}:/usr/src/app/test.scss
+  sass-4.12.0:
+    build: ./4.12.0
+    volumes:
+      - ./${FILE:-scss/test.scss}:/usr/src/app/test.scss
+    depends_on:
+      - sass-3.4.2
