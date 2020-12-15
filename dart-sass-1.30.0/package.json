@@ -1,5 +1,5 @@
 {
-  "name": "4.12.0",
+  "name": "dart-sass-1.30.0",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "4.12.0"
+    "sass": "1.30.0"
   }
 }

@@ -4,8 +4,8 @@ services:
     build: ./3.4.2
     volumes:
       - ./${FILE:-scss/test.scss}:/usr/src/app/test.scss
-  sass-4.12.0:
-    build: ./4.12.0
+  dart-sass-1.30.0:
+    build: ./dart-sass-1.30.0
     volumes:
       - ./${FILE:-scss/test.scss}:/usr/src/app/test.scss
     depends_on:
